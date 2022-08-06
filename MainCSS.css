@@ -86,7 +86,7 @@ a.home:hover {
 
 p.intro {
     background-color: white;
-    margin-top: 45px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     width: 78%;
@@ -99,7 +99,31 @@ p.intro {
     border-width: medium;
     border-style: dotted;
     border-color: black;
+    line-height: 200%;
 }
 b.ourstory {
     font-size: 30px;
+    line-height: 100%;
+}
+
+div.poem {
+    background-color: white;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 78%;
+    text-align: left;
+    padding: 30px;
+    color: black;
+    border-radius: 20px;
+    border-width: medium;
+    border-style: dotted;
+}
+p.poem {
+    /* margin-top: 0; */
+    /* margin-bottom: 0; */
+    font-size: 20px;
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+    border-color: black;
+    line-height: 200%;
 }
