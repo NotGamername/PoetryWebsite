@@ -88,7 +88,7 @@ h1.header {
     padding-bottom: 30px;
 }
 
-a.home {
+/* a.home {
     position: absolute;
     display: inline-block;
     font-size: 30px;
@@ -108,7 +108,7 @@ a.home:hover {
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
     margin: 0;
-}
+} */
 
 p.intro {
     background-color: white;
@@ -158,4 +158,69 @@ p.poem {
     font-family: 'Times New Roman', 'Times New Roman', Times, serif;
     border-color: black;
     line-height: 200%;
+}
+
+.arrows {
+    position: relative;
+    display: block;
+    width: 100%;
+    top: 350px;
+    z-index: 0;
+}
+.arrowsL {
+    position: relative;
+    display: block;
+    left: 10%;
+    width: auto;
+    margin: 0;
+}
+.arrowsL a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: inline;
+    transition: 0.3s;
+}
+.arrowsL a:hover {
+    color: #f1f1f1;
+}
+.arrowsL .bigbackarrow {
+    position: fixed;
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4%;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    margin: 0;
+}
+
+.arrowsR {
+    position: relative;
+    display: block;
+    left: 82%;
+    width: auto;
+    margin: 0;
+}
+.arrowsR a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: inline;
+    transition: 0.3s;
+}
+.arrowsR a:hover {
+    color: #f1f1f1;
+}
+.arrowsR .bignextarrow {
+    position: fixed;
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4%;
+    transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+    margin: 0;
 }
