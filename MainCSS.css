@@ -130,6 +130,12 @@ b.ourstory {
     font-size: 30px;
     line-height: 100%;
 }
+img.homeimg {
+    display: block;
+    position: relative;
+    left: 31%;
+    width: 40%;
+}
 
 div.poem {
     background-color: white;
